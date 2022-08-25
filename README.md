@@ -6,6 +6,8 @@ Os design patterns encontrados aqui são, inicialmente, somente os citados pela 
 
 O conteúdo, como os diagramas, não são de minha autoria, são um mesclado de várias fontes de estudos, que estão citadas na referências.
 
+O códigos implemtentados, possuem embasamento em outros, mas totalmente implementados "na mão".
+
 
 ---
 
