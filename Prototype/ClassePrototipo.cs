@@ -1,5 +1,6 @@
 ﻿namespace Prototype
 {
+    //Modelo 1 de implementação
     public class ClassePrototipo : IPrototype
     {
         private string _nome;

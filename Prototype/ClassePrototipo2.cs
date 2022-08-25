@@ -1,5 +1,6 @@
 ﻿namespace Prototype
 {
+    //Modelo de implementação para o c#
     public class ClassePrototipo2
     {
         public string Nome;

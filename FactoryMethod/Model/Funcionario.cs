@@ -1,22 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FactoryMethod.Model
+﻿namespace FactoryMethod.Model
 {
     public abstract class Funcionario
     {
-        string _nome;
-        int _idade;
-        decimal _salario;
+        public abstract string Nome { get; set; }
+        public abstract int Idade { get; set; }
+        public abstract decimal Salario { get; set; }
+        public abstract string Descricao { get; set; }
 
-        public Funcionario (string nome, int idade, decimal salario)
+        public void Info()
         {
-            _nome=nome;
-            _idade=idade;
-            _salario=salario;
+            Console.WriteLine($"Nome: {Nome} \nIdade: {Idade}\nSalario: {Salario} \nFunção: {Descricao}");
         }
+
     }
 }
