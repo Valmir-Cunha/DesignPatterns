@@ -8,6 +8,10 @@ O conteúdo, como os diagramas, não são de minha autoria, são um mesclado de 
 
 O códigos implemtentados possuem embasamento em outros, mas totalmente implementados "na mão".
 
+---
+#Nota sobre as implementações
+
+As implementações são superficiais, o intuito é somente mostrar a aplicação do design pattern.
 
 ---
 
