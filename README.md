@@ -13,6 +13,10 @@ O códigos implemtentados possuem embasamento em outros, mas totalmente implemen
 
 As implementações são superficiais, o intuito é somente mostrar a aplicação do design pattern.
 
+A pasta diagramas possui o diagrama "original" exibido no livro do GoF, assim como alguns contém exemplos de caso.
+
+Os diagramas que representam a implementação estarão com o nome: "diagrama_implementacao".
+
 ---
 
 # Referências
