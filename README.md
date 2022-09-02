@@ -15,7 +15,7 @@ As implementações são superficiais, o intuito é somente mostrar a aplicaçã
 
 A pasta diagramas possui o diagrama "original" exibido no livro do GoF, assim como alguns contendo exemplos de caso.
 
-Os diagramas que representam a implementação estarão com o nome: "diagrama_implementacao".
+Os diagramas que representam a implementação estarão com o nome: "diagrama-implementacao".
 
 ---
 
