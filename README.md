@@ -23,5 +23,7 @@ Os diagramas que representam a implementação estarão com o nome: "diagrama-im
 
 * [Playlist Design Pattern](https://youtube.com/playlist?list=PLbIBj8vQhvm0VY5YrMrafWaQY2EnJ3j8H)
 
+* [Playlist Design Pattern - Macoratti](https://youtube.com/playlist?list=PLJ4k1IC8GhW1L7fOWe238fetknEfBmG1I)
+
 * [Refactoring guru](https://refactoring.guru/pt-br) 
 
