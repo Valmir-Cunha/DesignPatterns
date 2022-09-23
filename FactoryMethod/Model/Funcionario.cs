@@ -2,15 +2,17 @@
 {
     public abstract class Funcionario
     {
-        public abstract string Nome { get; set; }
-        public abstract int Idade { get; set; }
-        public abstract decimal Salario { get; set; }
-        public abstract string Descricao { get; set; }
+        protected string _nome;
+        protected int _idade;
+        protected double _salario;
+        protected string _descricao;
 
         public void Info()
         {
-            Console.WriteLine($"Nome: {Nome} \nIdade: {Idade}\nSalario: {Salario} \nFunção: {Descricao}");
+            Console.WriteLine($"Nome: {_nome} \nIdade: {_idade}\nSalario base: {_salario} \nFunção: {_descricao}");
         }
+
+        public abstract void CalcularBonus();
 
     }
 }

@@ -4,12 +4,7 @@ namespace FactoryMethod.Factories
 {
     public class AtendenteFactory : FuncionarioFactory
     {
-        string _nome;
-        int _idade;
-        decimal _salario;
-        string _descricao;
-
-        public AtendenteFactory(string nome, int idade, decimal salario, string descricao)
+        public AtendenteFactory(string nome, int idade, double salario, string descricao)
         {
             _nome = nome;
             _idade = idade;

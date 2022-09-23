@@ -12,14 +12,17 @@ public class Program
         switch (codigo)
         {
             case "1":
-                funcionarioFactory = new GerenteFactory("Fulano", 35, 5000m, "Gerente");
+                funcionarioFactory = new GerenteFactory("Fulano", 35, 5000, "Gerente");
+                
                 break;
             case "2":
-                funcionarioFactory = new AtendenteFactory("Beutrano", 20, 2000m, "Atendente");
+                funcionarioFactory = new AtendenteFactory("Beutrano", 20, 2000, "Atendente");
                 break;
         }
         Funcionario funcionario = funcionarioFactory.CriarFuncionario();
         funcionario.Info();
+        funcionario.CalcularBonus();
+
 
     }
 }
