@@ -5,55 +5,53 @@ VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Criacionais", "Criacionais", "{BC6A7518-93C3-4147-B2EC-C2E15A7CACB9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{3EE7BC4D-5E46-48AE-A286-DDC3A1E5B31F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Criacionais\Singleton\Singleton.csproj", "{3EE7BC4D-5E46-48AE-A286-DDC3A1E5B31F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Estruturais", "Estruturais", "{3808C411-C792-458A-B2D2-BC0D4635ABCC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comportamentais", "Comportamentais", "{9D1B912A-4AD7-433E-A88E-75380893AA1A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prototype.csproj", "{FCB7D209-532B-4CA2-8AD6-EBF8C84BDC8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Criacionais\Prototype\Prototype.csproj", "{FCB7D209-532B-4CA2-8AD6-EBF8C84BDC8E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{A1F35C27-E9ED-46D5-9AC1-AF57682DDDC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Criacionais\Builder\Builder.csproj", "{A1F35C27-E9ED-46D5-9AC1-AF57682DDDC3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{BE978781-DBFA-41FE-822E-EE9A31B60B26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "Criacionais\FactoryMethod\FactoryMethod.csproj", "{BE978781-DBFA-41FE-822E-EE9A31B60B26}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{F85C2F80-FE97-43C1-8378-7205365700B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "Criacionais\AbstractFactory\AbstractFactory.csproj", "{F85C2F80-FE97-43C1-8378-7205365700B0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{8E4D7A62-E34B-4E10-A859-3D47C4A963FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Estruturais\Composite\Composite.csproj", "{8E4D7A62-E34B-4E10-A859-3D47C4A963FA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{E0E73150-1FE1-481C-B4E0-5D5B74D97F07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Estruturais\Adapter\Adapter.csproj", "{E0E73150-1FE1-481C-B4E0-5D5B74D97F07}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csproj", "{D3B9A9C3-E46F-472F-A113-8E82131AE7B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Estruturais\Bridge\Bridge.csproj", "{D3B9A9C3-E46F-472F-A113-8E82131AE7B5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csproj", "{79780D25-1BCC-4816-B81C-C3BE781023FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Estruturais\Facade\Facade.csproj", "{79780D25-1BCC-4816-B81C-C3BE781023FC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{D18840C6-9E8E-4732-994A-EC537E713B2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Estruturais\Decorator\Decorator.csproj", "{D18840C6-9E8E-4732-994A-EC537E713B2F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "Flyweight\Flyweight.csproj", "{5686B60B-446C-466E-9E60-36524CF2570E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "Estruturais\Flyweight\Flyweight.csproj", "{5686B60B-446C-466E-9E60-36524CF2570E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj", "{BA7A6923-C50E-4E93-A07A-416475FA2A50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Estruturais\Proxy\Proxy.csproj", "{BA7A6923-C50E-4E93-A07A-416475FA2A50}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{87FE27C5-AF4C-47D1-8F46-8EA8BDFBCB5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "Comportamentais\ChainOfResponsibility\ChainOfResponsibility.csproj", "{87FE27C5-AF4C-47D1-8F46-8EA8BDFBCB5D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Command\Command.csproj", "{55B9B975-1B72-4865-B906-53816F8ED9ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Comportamentais\Command\Command.csproj", "{55B9B975-1B72-4865-B906-53816F8ED9ED}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{BEE022C6-B8F4-4C8E-89AD-14F2BD88149F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Comportamentais\Strategy\Strategy.csproj", "{BEE022C6-B8F4-4C8E-89AD-14F2BD88149F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento", "Memento\Memento.csproj", "{4CC97128-280B-40A8-825A-FC7728C82B4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento", "Comportamentais\Memento\Memento.csproj", "{4CC97128-280B-40A8-825A-FC7728C82B4C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stage", "Stage\Stage.csproj", "{55A3DC8F-38F3-4BDE-B440-DC866F2B1097}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stage", "Comportamentais\Stage\Stage.csproj", "{55A3DC8F-38F3-4BDE-B440-DC866F2B1097}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediator.csproj", "{659228ED-6E28-4BBC-A47E-70A424E24F08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Comportamentais\Mediator\Mediator.csproj", "{659228ED-6E28-4BBC-A47E-70A424E24F08}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{2795B88C-7480-43F5-A271-246C08D6957D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Comportamentais\Observer\Observer.csproj", "{2795B88C-7480-43F5-A271-246C08D6957D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "Iterator\Iterator.csproj", "{9236B394-CEB8-4414-BF57-B2D75E742B8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "Comportamentais\Iterator\Iterator.csproj", "{9236B394-CEB8-4414-BF57-B2D75E742B8F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "Visitor\Visitor.csproj", "{7E5EC9B3-B6B5-4CD9-98D3-FCDDB9FCBE38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "Comportamentais\Visitor\Visitor.csproj", "{7E5EC9B3-B6B5-4CD9-98D3-FCDDB9FCBE38}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{AE584B4F-4A5B-46D9-A134-88BC8ECD58A2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "Teste\ConsoleApp1\ConsoleApp1.csproj", "{EA2BB151-5CD0-46EB-875C-3638804DB4F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "Comportamentais\TemplateMethod\TemplateMethod.csproj", "{AE584B4F-4A5B-46D9-A134-88BC8ECD58A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -149,10 +147,6 @@ Global
 		{AE584B4F-4A5B-46D9-A134-88BC8ECD58A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE584B4F-4A5B-46D9-A134-88BC8ECD58A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE584B4F-4A5B-46D9-A134-88BC8ECD58A2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EA2BB151-5CD0-46EB-875C-3638804DB4F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EA2BB151-5CD0-46EB-875C-3638804DB4F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EA2BB151-5CD0-46EB-875C-3638804DB4F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EA2BB151-5CD0-46EB-875C-3638804DB4F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
