@@ -51,7 +51,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "Iterator\Iterat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "Visitor\Visitor.csproj", "{7E5EC9B3-B6B5-4CD9-98D3-FCDDB9FCBE38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{AE584B4F-4A5B-46D9-A134-88BC8ECD58A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{AE584B4F-4A5B-46D9-A134-88BC8ECD58A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "Teste\ConsoleApp1\ConsoleApp1.csproj", "{EA2BB151-5CD0-46EB-875C-3638804DB4F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{AE584B4F-4A5B-46D9-A134-88BC8ECD58A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE584B4F-4A5B-46D9-A134-88BC8ECD58A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE584B4F-4A5B-46D9-A134-88BC8ECD58A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA2BB151-5CD0-46EB-875C-3638804DB4F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA2BB151-5CD0-46EB-875C-3638804DB4F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA2BB151-5CD0-46EB-875C-3638804DB4F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA2BB151-5CD0-46EB-875C-3638804DB4F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
