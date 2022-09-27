@@ -1,9 +1,40 @@
 ﻿using FactoryMethod.Factories;
+using FactoryMethod.FactoriesFuncionarios;
 using FactoryMethod.Model;
+using FactoryMethod.ModelFuncionarios;
 
 public class Program
 {
     public static void Main()
+    {
+        TransporteFactory  transporteFactory = null;
+        string pacote = "N° 2893741892";
+        Console.WriteLine("Digite o código do tipo de transporte que deseja utilizar no envio:");
+        Console.WriteLine("1 - Caminhão | 2 - Avião");
+        string codigo = Console.ReadLine();
+        switch (codigo)
+        {
+            case "1":
+                transporteFactory = new CaminhaoFactory("Modelo X", 2015);
+                break;
+            case "2":
+                transporteFactory = new AviaoFactory("Modelo Y", 2016);
+                break;
+        }
+        Transporte transporte = transporteFactory.CriarTransporte();
+        transporte.Entregar(pacote);
+    }
+
+
+
+
+
+
+
+
+
+
+    public static void ExemploFuncionarios()
     {
         FuncionarioFactory funcionarioFactory = null;
         Console.WriteLine("Digite o código do tipo de funcionário que deseja criar:");
@@ -13,7 +44,7 @@ public class Program
         {
             case "1":
                 funcionarioFactory = new GerenteFactory("Fulano", 35, 5000, "Gerente");
-                
+
                 break;
             case "2":
                 funcionarioFactory = new AtendenteFactory("Beutrano", 20, 2000, "Atendente");
@@ -22,7 +53,6 @@ public class Program
         Funcionario funcionario = funcionarioFactory.CriarFuncionario();
         funcionario.Info();
         funcionario.CalcularBonus();
-
 
     }
 }

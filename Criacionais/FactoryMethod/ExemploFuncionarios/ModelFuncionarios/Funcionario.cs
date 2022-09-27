@@ -1,4 +1,4 @@
-﻿namespace FactoryMethod.Model
+﻿namespace FactoryMethod.ModelFuncionarios
 {
     public abstract class Funcionario
     {

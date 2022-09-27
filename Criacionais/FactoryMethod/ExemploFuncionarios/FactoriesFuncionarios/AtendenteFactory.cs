@@ -1,6 +1,6 @@
-﻿using FactoryMethod.Model;
+﻿using FactoryMethod.ModelFuncionarios;
 
-namespace FactoryMethod.Factories
+namespace FactoryMethod.FactoriesFuncionarios
 {
     public class AtendenteFactory : FuncionarioFactory
     {
