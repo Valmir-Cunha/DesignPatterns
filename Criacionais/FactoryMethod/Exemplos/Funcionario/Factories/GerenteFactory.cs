@@ -1,6 +1,6 @@
-﻿using FactoryMethod.ModelFuncionarios;
+﻿using FactoryMethod.Exemplos.Funcionario.Model;
 
-namespace FactoryMethod.FactoriesFuncionarios
+namespace FactoryMethod.Exemplos.Funcionario.Factories
 {
     public class GerenteFactory : FuncionarioFactory
     {
@@ -12,7 +12,7 @@ namespace FactoryMethod.FactoriesFuncionarios
             _descricao = descricao;
         }
 
-        public override Funcionario CriarFuncionario()
+        public override Model.Funcionario CriarFuncionario()
         {
             return new Gerente(_nome, _idade, _salario, _descricao);
         }

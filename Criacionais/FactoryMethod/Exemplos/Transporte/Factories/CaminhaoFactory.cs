@@ -1,6 +1,6 @@
-﻿using FactoryMethod.Model;
+﻿using FactoryMethod.Exemplos.Transporte.Model;
 
-namespace FactoryMethod.Factories
+namespace FactoryMethod.Exemplos.Transporte.Factories
 {
     public class CaminhaoFactory : TransporteFactory
     {
@@ -8,7 +8,7 @@ namespace FactoryMethod.Factories
         {
         }
 
-        public override Transporte CriarTransporte()
+        public override Model.Transporte CriarTransporte()
         {
             return new Caminhao(_descricao,_anoFabricacao);
         }
