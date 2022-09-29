@@ -2,12 +2,8 @@
 {
     public class Gerente : Funcionario
     {
-        public Gerente(string nome, int idade, double salario, string descricao)
+        public Gerente(string nome, int idade, double salario, string descricao) : base(nome, idade, salario, descricao)
         {
-            _nome = nome;
-            _idade = idade;
-            _salario = salario;
-            _descricao = descricao;
         }
 
         public override void CalcularBonus()
