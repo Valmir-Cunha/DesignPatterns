@@ -1,6 +1,4 @@
-﻿using FactoryMethod.ModelFuncionarios;
-
-namespace FactoryMethod.FactoriesFuncionarios
+﻿namespace FactoryMethod.Exemplos.Funcionario.Factories
 {
     public abstract class FuncionarioFactory
     {
@@ -8,6 +6,6 @@ namespace FactoryMethod.FactoriesFuncionarios
         protected int _idade;
         protected double _salario;
         protected string _descricao;
-        public abstract Funcionario CriarFuncionario();
+        public abstract Model.Funcionario CriarFuncionario();
     }
 }

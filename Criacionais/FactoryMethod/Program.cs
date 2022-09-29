@@ -1,7 +1,7 @@
-﻿using FactoryMethod.Factories;
-using FactoryMethod.FactoriesFuncionarios;
-using FactoryMethod.Model;
-using FactoryMethod.ModelFuncionarios;
+﻿using FactoryMethod.Exemplos.Funcionario.Factories;
+using FactoryMethod.Exemplos.Funcionario.Model;
+using FactoryMethod.Exemplos.Transporte.Factories;
+using FactoryMethod.Exemplos.Transporte.Model;
 
 public class Program
 {
