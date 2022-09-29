@@ -1,6 +1,4 @@
-﻿using FactoryMethod.Model;
-
-namespace FactoryMethod.Factories
+﻿namespace FactoryMethod.Exemplos.Transporte.Factories
 {
     public abstract class TransporteFactory
     {
@@ -13,6 +11,6 @@ namespace FactoryMethod.Factories
             _anoFabricacao=anoFabricacao;
         }
 
-        public abstract Transporte CriarTransporte();
+        public abstract Model.Transporte CriarTransporte();
     }
 }

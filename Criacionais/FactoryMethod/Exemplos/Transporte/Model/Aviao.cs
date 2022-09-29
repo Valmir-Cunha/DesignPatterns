@@ -1,4 +1,4 @@
-﻿namespace FactoryMethod.Model
+﻿namespace FactoryMethod.Exemplos.Transporte.Model
 {
     public class Aviao : Transporte
     {
